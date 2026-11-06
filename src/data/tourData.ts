@@ -47,7 +47,7 @@ export const SCHEDULE_ITEMS: ScheduleItem[] = [
     mealNote: '午餐：奮起湖鐵路便當',
     detailNote: '老街慢活漫步、古早味鐵道便當',
     description: '山城、老街、鐵道是奮起湖的三大特色。奮起湖車站是阿里山森林鐵路最大的中途養護站，舊時運送木材與乘載工人的列車會在此地停留較長時間，造就了奮起湖的鐵路便當文化。',
-    image: '/images/fenqihu.jpg',
+    image: '/autumn-trip-web/images/fenqihu.jpg',
     badge: '特色人文'
   },
   {
@@ -71,7 +71,7 @@ export const SCHEDULE_ITEMS: ScheduleItem[] = [
     activity: '辦理入住 & 房間休息',
     detailNote: '領取房卡、行李安置、享受全檜木古典大廳與高山芬多精',
     description: '阿里山賓館位在海拔 2274 米之阿里山山嶺，是全台灣海拔最高的百年歷史度假飯店，前身為日治時期的「阿里山林場俱樂部」，曾接待過多位日本總督、中華民國總統，見證了阿里山林場的滄桑與變遷。',
-    image: '/images/alishan_house.jpg',
+    image: '/autumn-trip-web/images/alishan_house.jpg',
     badge: '微奢華住宿'
   },
   {
@@ -83,7 +83,7 @@ export const SCHEDULE_ITEMS: ScheduleItem[] = [
     location: '阿里山火車站',
     activity: '搭乘經典小火車',
     detailNote: '搭小火車到沼平車站（穿梭巨木林道體驗經典森鐵）',
-    image: '/images/forest_train.jpg',
+    image: '/autumn-trip-web/images/forest_train.jpg',
     badge: '鐵道巡禮'
   },
   {
@@ -133,7 +133,7 @@ export const SCHEDULE_ITEMS: ScheduleItem[] = [
     activity: '玉山觀日出與群峰遠眺',
     detailNote: '專車前往玉山觀日、自忠觀景台眺望群峰。沿途觀賞玉山國家公園紀念碑、鹿林神木、野生獼猴保護區',
     description: '站在台灣屋脊的門戶，迎接自中央山脈玉山主峰稜線破曉而出的萬丈金芒，雲海隨晨曦翻湧，令人永生難忘。',
-    image: '/images/hero_sunrise.jpg',
+    image: '/autumn-trip-web/images/hero_sunrise.jpg',
     badge: '壯麗絕景'
   },
   {
@@ -181,7 +181,7 @@ export const SCHEDULE_ITEMS: ScheduleItem[] = [
     activity: '參觀博物館與漫步水墨園區',
     detailNote: '欣賞亞洲藝術珍寶展覽，並參觀以水墨行草筆勢打造的雙曲面綠建築至美橋與人工湖',
     description: '國立故宮博物院南院定位為亞洲藝術文化博物館，園區是以傳統水墨畫發展出的流線型體。期待達到「平衡南北，文化均富」，順道帶動中南部的文化、教育、社會、與經濟發展。',
-    image: '/images/npm_south.jpg',
+    image: '/autumn-trip-web/images/npm_south.jpg',
     badge: '人文藝術'
   },
   {
@@ -282,7 +282,7 @@ export const HOTEL_INFO = {
     dinner: '17:30 - 20:30 精緻自助百匯晚餐（在地山珍、溫補熱湯、現切肉品與高山鮮蔬）',
     breakfast: '07:30 - 09:30 中西式自助早餐（現煮咖啡、有機蛋品、熱清粥小菜與烘焙麵包）'
   },
-  image: '/images/forest_train.jpg'
+  image: '/autumn-trip-web/images/forest_train.jpg'
 };
 
 export const ATTRACTIONS: AttractionInfo[] = [
@@ -292,7 +292,7 @@ export const ATTRACTIONS: AttractionInfo[] = [
     subtitle: '山城 · 老街 · 鐵道 — 阿里山森林鐵路最大中途站',
     description: '山城、老街、鐵道是奮起湖的三大特色。奮起湖車站是阿里山森林鐵路最大的中途養護站，舊時運送木材與乘載工人的列車會在此地停留較長時間，造就了奮起湖的鐵路便當文化。依山而建的老街兩側保留百年檜木老鋪，香味四溢的鐵路便當與草仔粿更是不容錯過的美食記憶。',
     highlights: ['阿里山森鐵最大中途調度站', '馳名經典雙主菜鐵道鐵盒便當', '老街石階、愛玉伯天然野生愛玉'],
-    image: '/images/alishan_house.jpg',
+    image: '/autumn-trip-web/images/alishan_house.jpg',
     tags: ['人文鐵道', '特色美食', '老街漫遊']
   },
   {
@@ -301,76 +301,7 @@ export const ATTRACTIONS: AttractionInfo[] = [
     subtitle: '穿梭雲霧中的世界級高山登山鐵道',
     description: '搭乘經典紅色小火車自阿里山站出發至沼平車站，車窗外參天檜木飛馳而過。隨後漫步沼平、姊妹潭、巨木群棧道與受鎮宮，在海拔兩千多公尺的林間棧道沐浴純淨芬多精，仰望千年生生不息的神木傳奇。',
     highlights: ['世界遺產級高山森林小火車', '神木群巨型紅檜步道', '平靜如鏡的姊妹潭高山湖泊'],
-    image: '/images/fenqihu.jpg',
-    tags: ['世界級鐵道', '千年神木', '芬多精森林浴']
-  },
-  {
-    id: 'yushan-sunrise',
-    title: '玉山國家公園 觀日出奇景',
-    subtitle: '破曉朝陽破雲而出，金光灑滿自忠群峰',
-    description: '專車清晨前往玉山觀日、自忠觀景台眺望群峰。沿途觀賞玉山國家公園紀念碑、鹿林神木、野生獼猴保護區。當第一道曙光劃破玉山連綿山際，翻騰的金色雲海伴隨清涼的高山晨風，感受天地之遼闊壯美。',
-    highlights: ['自忠觀景台眺望玉山主峰與北峰群脊', '台灣第二大樹齡約 2700 年鹿林神木', '野生獼猴生態保護區巡禮'],
-    image: '/images/hero_sunrise.jpg',
-    tags: ['日出雲海', '台灣之巔', '鹿林神木']
-  },
-  {
-    id: 'npm-south',
-    title: '國立故宮博物院 南部院區',
-    subtitle: '以東方水墨意象鑄造的亞洲藝術殿堂',
-    description: '國立故宮博物院南院定位為亞洲藝術文化博物館，園區是以傳統水墨畫發展出的流線型體。期待達到「平衡南北，文化均富」，順道帶動中南部的文化、教育、社會、與經濟發展。建築本身宛如墨筆在嘉南平原輕點而成的飛白與濃墨，戶外水景人工湖與至美橋更兼具現代與傳統美學。',
-    highlights: ['展覽匯聚亞洲陶瓷、織品、佛教藝術極品', '水墨行草行雲流水的雙曲面流線鋼構建築', '漫步至美橋與湖畔人工濕地生態園區'],
-    image: '/images/npm_south.jpg',
-    tags: ['水墨綠建築', '故宮典藏', '亞洲文化']
-  }
-];
-
-export const WEATHER_FORECAST: WeatherCondition[] = [
-  {
-    location: '阿里山國家森林遊樂區',
-    elevation: '海拔 2,216M',
-    temp: 16,
-    tempMin: 12,
-    tempMax: 19,
-    condition: '涼爽晴朗 · 偶有山嵐',
-    icon: 'SunDim',
-    rainProb: '10%',
-    humidity: '68%',
-    uvIndex: '5 (中量級)',
-    wind: '微風 2 級',
-    sunrise: '06:08',
-    sunset: '17:15',
-    clothingTip: '早晚偏涼（約 12~14°C），白天步道健走約 18°C，建議穿著長袖排汗衫搭配防風保暖外套。'
-  },
-  {
-    location: '奮起湖老街 (山城鐵道)',
-    elevation: '海拔 1,403M',
-    temp: 19,
-    tempMin: 15,
-    tempMax: 22,
-    condition: '微涼舒適 · 輕霧繚繞',
-    icon: 'CloudSun',
-    rainProb: '15%',
-    humidity: '75%',
-    uvIndex: '4 (中量級)',
-    wind: '和風 2 級',
-    sunrise: '06:09',
-    sunset: '17:16',
-    clothingTip: '氣候宜人濕潤，建議薄長袖外搭針織或薄風衣，穿著舒適健走鞋。'
-  },
-  {
-    location: '國立故宮博物院南部院區 (嘉義太保)',
-    elevation: '海拔 25M',
-    temp: 25,
-    tempMin: 21,
-    tempMax: 28,
-    condition: '秋高氣爽 · 陽光和煦',
-    icon: 'Sun',
-    rainProb: '5%',
-    humidity: '58%',
-    uvIndex: '6 (高量級)',
-    wind: '輕風 1 級',
-    sunrise: '06:11',
-    sunset: '17:18',
-    clothingTip: '平地氣溫溫暖舒適，室內館內展區有恆溫冷氣（約 20°C），請隨身攜帶隨行薄外套防寒。'
+    image: '/autumn-trip-web/images/fenqihu.jpg',
+    tags: ['世界級鐵道', '千年神木']
   }
 ];
