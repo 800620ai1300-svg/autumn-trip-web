@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Deploy Vite Site to GitHub Pages
 
 on:
   push:
@@ -23,13 +23,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
+
+      - name: Build project
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # 👈 這次我們直接強制抓取最外層所有完整的 AI Studio 靜態成品
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
