@@ -1,4 +1,4 @@
-import { ScheduleItem, TourLeader, EmergencyPhone, AttractionInfo, WeatherCondition } from '../types/tour';
+import { ScheduleItem, TourLeader, EmergencyPhone, AttractionInfo } from '../types/tour';
 
 export const TOUR_META = {
   title: '秋季阿里山微奢華兩日遊',
@@ -256,7 +256,7 @@ export const WARM_REMINDERS = [
   {
     id: 'motion-sickness',
     title: '暈車藥品提醒',
-    content: '阿里山彎道較多，容易暈車者務必於出發前 30 分鐘服用暈車藥。',
+    content: '阿里山彎道較多，容易暈車者務必於出發前 30 分鐘服用暈車藥. 。',
     tip: '山路行車若感到不適，可即時告知領隊或司機調整空調與車速。'
   },
   {
