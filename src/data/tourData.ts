@@ -10,6 +10,11 @@ export const TOUR_META = {
   hotelName: '阿里山賓館 (海拔 2,274M 百年歷史度假飯店)',
 };
 
+export const WEATHER_FORECAST = [
+  { day: '11/14 (六)', temp: '12°C - 18°C', condition: '多雲時晴', icon: 'cloud-sun' },
+  { day: '11/15 (日)', temp: '10°C - 16°C', condition: '晴朗微寒', icon: 'sun' }
+];
+
 export const SCHEDULE_ITEMS: ScheduleItem[] = [
   // DAY 1 - 2026/11/14
   {
@@ -256,7 +261,7 @@ export const WARM_REMINDERS = [
   {
     id: 'motion-sickness',
     title: '暈車藥品提醒',
-    content: '阿里山彎道較多，容易暈車者務必於出發前 30 分鐘服用暈車藥. 。',
+    content: '阿里山彎道較多，容易暈車者務必於出發前 30 分鐘服用暈車藥。',
     tip: '山路行車若感到不適，可即時告知領隊或司機調整空調與車速。'
   },
   {
