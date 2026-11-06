@@ -1,0 +1,6 @@
+{
+  "name": "秋季阿里山微奢華兩日遊",
+  "description": "公司年度秋季員工旅遊官方指南：動態同步即時行程儀表板、阿里山高山天氣預報、精選景點與百年阿里山賓館介紹及緊急聯絡支援。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
